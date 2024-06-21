@@ -1,0 +1,21 @@
+# Compartment -> access number (to put in patient_data.txt) add mc
+ao 0
+sart 1
+svn 2
+ra 3
+rv 4
+pas 5
+part 6
+pvn 7
+la 8
+lv 10
+ecmodrain 11
+ecmotudp 12
+ecmotupo 13
+ecmooxy 14
+ecmotuor 15
+ecmoreturn 16 
+crrttuin 17
+crrttupf 18
+crrtfil 19
+crrttuout 20

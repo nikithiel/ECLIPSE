@@ -1,0 +1,6 @@
+# Corresponding Location of ECMO Compartments for CRRT Study
+ecmotudp,Pre Pump
+ecmotupo,Post Pump
+ecmooxy,Pre Oxy
+ecmotuor,Post Oxy
+ecmoreturn,Return ECMO

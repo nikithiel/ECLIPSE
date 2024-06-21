@@ -1,0 +1,5 @@
+#Initial Volumes (ml) ECLS dead volumes
+#ECMO
+Vecmooxy 335. # Quadrox-i Adult 335., Small Adult 295.
+# CRRT
+Vcrrtfil 105.

@@ -1,0 +1,29 @@
+# name group_name (optional)
+# resistances csv
+Rao
+Rsart
+Rmc
+Rsvn
+Rpas
+Rpart
+Rpmc
+Rpvn
+# compliances csv
+Cao
+Csart
+Csvn
+Cpas
+Cpart
+Cpvn
+# inertia csv
+Lao
+Lsart
+Lpas
+Lpart
+# heart chambers csv
+Edla
+Edra
+Emaxla
+Emaxlv
+Emaxra
+Emaxrv

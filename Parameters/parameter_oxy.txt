@@ -1,0 +1,5 @@
+# Type Resistance
+# Assuming linear relationship
+Quadroxiadult 0.6744              # 0
+Quadroxismalladult 0.5174         # 1
+NautilusMC3 0.6312                # 2

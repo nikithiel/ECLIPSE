@@ -1,0 +1,49 @@
+# Patient measurements  ------------------------
+sex 1       # 0: male, 1: female
+age 70      # years
+height 165  # cm
+weight 60   # kg
+bpm 120     # 1/min
+PF 3.5      # l/min
+MAP 80      # mmHg
+SP 83       # mmHg
+DP 76       # mmHg
+CO 1.4      # l/min
+MPAP 11     # mmHg
+#
+#
+# Pump parameters ------------------------------
+# ECMO
+# Rotaflow ~ [1000, 4000], DP3 ~ [5000, 8000]
+ECMOrpm 3425        # rev/min
+ECMOpump 1          # Rotaflow = 1; DP3 = 0
+ECMOoxy 0           # Quadrox-i Adult = 0; Quadrox-i Small Adult = 1; Nautilus MC3 = 2
+# CRRT
+CRRTflow 200         # mL/min
+# LVAD
+# Full Support: 5 L/min/Partial Support: 3 L/min - Reached in Boes19
+# HMII 9100/7200, HM3 5400/4000, HVAD 2600/2000, Incor 7400/5400 
+LVADrpm 2600        # rev/min
+LVADpump 4          # HMII = 2; HM3 = 3; HVAD = 4; Incor = 5
+#
+#
+# Cannulae parameters --------------------------
+# ECMO ----
+# VV-ECMO: long 23-28 Fr drain and short 17-23 Fr return (see Red Book p. 434)
+# VA-ECMO: 21-25 Fr drain and 17-21 Fr return (see ecmo.icu)
+# Available diameters for arterial: [15, 17, 19, 21, 23] and venous: [19, 21, 23, 25, 29]
+ECMOactive 1        # 1=on 0=off
+ECMOtype 2          # 1=VV 2=VA
+ECMOdrainD 21       # Diameter (French size)
+ECMOdrainAccess 3   # VV: 2=svn, VA: 3=ra
+ECMOreturnD 17      # Diameter (French size)
+ECMOreturnAccess 0  # VV: 3=ra, VA: 0=ao
+#
+# CRRT ----
+CRRTactive 0
+CRRTdrainAccess 14
+CRRTreturnAccess 15
+# LVAD ----
+LVADactive 0
+LVADdrainAccess 10  # lv
+LVADreturnAccess 0  # ao

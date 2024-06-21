@@ -1,0 +1,14 @@
+#Initial Ratios (ml)
+# Blood vessels
+Vao 0.035268497         # Aorta
+Vsart 0.094731503       # Systemic arterial
+Vsvn 0.64               # Systemic venous
+Vpas 0.013              # Pulmonary aortic sinus
+Vpart 0.023             # Pulmonary artery
+Vpvn 0.054              # Pulmonary venous
+#
+# Heart
+Vra 0.00953929          # Right atrium
+Vrv 0.018438289         # Right ventricle
+Vla 0.013269714         # Left atrium
+Vlv 0.028752707         # Left ventricle

@@ -1,0 +1,78 @@
+# Every default parameters used for the model
+# Cardiovascular system (CVS)
+muB 0.003       # Dynamic viscosity (Pa s)
+rohB 0.00106    # Volumic mass (kg/mL)
+Rao 0.003
+Rsart 0.05
+Rmc 0.5      
+Rsvn 0.01
+Rpas 0.002
+Rpart 0.01
+Rpmc 0.05  
+Rpvn 0.006
+#
+Cao 0.08
+Csart 0.9
+Csvn 20.5
+Cpas 0.18
+Cpart 3.8
+Cpvn 20.5
+#
+Lao 0.000062
+Lsart 0.0017
+Lpas 0.000052
+Lpart 0.0017
+#
+CQtri 400.
+CQpa 350.
+CQmi 400.
+CQao 350.
+#
+Emaxra 0.225
+Edra 0.1575
+Emaxrv 0.45
+RV_Pd_beta 2.5
+RV_Pd_kappa 0.028
+RV_Pd_alpha 0.047
+Emaxla 0.45
+Edla 0.2125
+Emaxlv 1.8 # 2.8 Healthy / 0.6 cardiac failure
+LV_Pd_beta 2.5
+LV_Pd_kappa 0.033
+LV_Pd_alpha 0.064
+##### END Cardiovascular system ######
+#
+##### EC circuits ######
+# ECMO
+Decmotudp 0.9625    # Diameter in (cm) (3/8")
+Lecmotudp 200       # Length in (cm)
+Decmotupo 0.9625    # Diameter in (cm) (3/8")
+Lecmotupo 20        # Length in (cm)
+Decmotuor 0.9625    # Diameter in (cm) (3/8")
+Lecmotuor 200       # Length in (cm)
+#
+Recmooxy 0.6744     # Default: Quadrox-i Adult w/ 0.6744; check parameter_oxy.txt for more!
+#
+Cecmodrain 0.1
+Cecmotudp 0.1
+Cecmotupo 0.1
+Cecmooxy 0.008
+Cecmotuor 0.1
+Cecmoreturn 0.1
+# -----
+# CRRT (Prismaflex M100 with total priming volume of 152 mL)
+Lcrrttuin 250       # Length in (cm)
+Dcrrttuin 0.3175    # Diameter in (cm) (1/8")
+Lcrrttupf 100       # Length in (cm)
+Dcrrttupf 0.3175    # Diameter in (cm) (1/8")
+Lcrrttuout 250      # Length in (cm)
+Dcrrttuout 0.3175   # Diameter in (cm) (1/8")
+#
+Rcrrtfil 15.75      # Prismaflex M100 filter
+#
+Ccrrttuin 0.1
+Ccrrttupf 0.1
+Ccrrtfil 0.008      # No data from manufacturer given!
+Ccrrttuout 0.1
+# -----
+##### END EC circuits #####

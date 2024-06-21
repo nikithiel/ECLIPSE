@@ -1,0 +1,6 @@
+Pao 80.
+Psart 80.
+Psvn 4.
+Ppas 12.
+Ppart 8.
+Ppvn 6.
