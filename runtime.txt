@@ -1,0 +1,36 @@
+# Define duration and time step size of simulation
+duration 100
+step 5E-4
+
+# Do you want to save the plots in a csv file on top level : 1 = yes, 0 = no (default), only for production and fitting
+saveSolutionToCSV 0
+
+# Which type of run do you want to perform? [p]roduction, [f]itting, [s]ensitivity analysis
+runType p
+
+# GSA specific: Specify the input file for sensitivity analysis!
+sensitivityInput sensitivity_input_no_groups
+
+# GSA specific: How many samples do you want to use for the analysis? Use 2, 4, 16, 32 ... etc. 
+sampleSize 2048
+
+# GSA specific: How much perturbation in percent do you want to add to the initial parameter values?
+perturbation 25
+
+# GSA specific: Do you want to run on multiple samples to check convergence? 1 = yes, 0 = no (default)
+checkConvergenceGSA 0
+
+# GSA specific: Do you want to include ECMO rpm and CRRT connection into GSA? 1 = yes, 0 = no (default)
+includeECLSGSA 0
+
+# Fitting specific: Do you want to explore your parameter space? 1 = yes, 0 = no (default)
+exploreParameterSpace 0
+
+# Which patient are you considering?
+patientId 1
+
+# Specify, whether model runs w.r.t. given patient specific values. 1 = yes, 0 = no (default)
+patientFitted 0
+
+# Analyse the behavior of the ECMO device 1 = yes, 0 = no (default)
+analyzeECMObehaviour 0

@@ -1,0 +1,8 @@
+#possiblePlots = ['heartvolumes', 'paoplv', 'qpulm', 'meanflows', 'Pressures', 'pvloops',
+#               'CVSpressuresMean', 'checkPressures', 'LVAD', 'Flows', 'valveflows']
+# one line per plot requested
+Flows
+pvloops
+valveflows
+Pressures
+meanflows
