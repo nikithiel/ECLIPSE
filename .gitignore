@@ -9,8 +9,8 @@ Sensitivity/Results/*
 Parameters/Parameter_model_patient_*
 .vscode/
 Plots/*
-#runtime.txt
-#ListOfPlots.txt
+runtime.txt
+ListOfPlots.txt
 
 # Exception to the above rule to prevent git from deleting folder itself
 !Optimization/.gitkeep
